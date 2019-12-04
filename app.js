@@ -13,7 +13,7 @@ app.use(bodyParser.json());
 
 const JWT_Secret = 'tecsup2019';
 
-var testUser = { email: 'tecsup@mai.com', password: '123456' };
+var testUser = { email: 'tecsup@gmai.com', password: '123456' };
 
 app.post('/api/authenticate', (req, res) => {
  
